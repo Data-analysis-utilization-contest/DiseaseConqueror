@@ -6,8 +6,8 @@
 터미널 사용 방법: 
 python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_splits -test_size -random_state -save -metrics -n1 -n2 -visualization -prePath<br/>
 """
-  args<br/>
-    &nbsp;datadir: 데이터 디렉토리<br/>
+  &nbspargs<br/>
+    &nbsp&nbsp;datadir: 데이터 디렉토리<br/>
     year: 연도<br/>
     target: 분석하고자 하는 질병<br/>
     models: 사용하고자 하는 머신러닝 모델<br/>
