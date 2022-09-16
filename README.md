@@ -4,8 +4,8 @@
 데이터 다운로드 링크: https://dataon.kisti.re.kr/search/view.do?mode=view&svcId=c3aaeefa557772ed8c57515a0793ffab
 
 터미널 사용 방법: 
-python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_splits -test_size -random_state -save -metrics -n1 -n2 -visualization -prePath
-<br/>"""<br/>
+python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_splits -test_size -random_state -save -metrics -n1 -n2 -visualization -prePath<br/>
+"""
   <br/>args<br/>
     <br/>datadir: 데이터 디렉토리<br/>
     <br/>year: 연도<br/>
