@@ -23,4 +23,4 @@
 """<br/>
 
 터미널 사용 방법<br/>
->python DiseaseConqueror.py -datadir './data' -year 2022 -targt '당뇨병' -models RandomForest AdaBoost -one_hoe_encoding True -n_splits 5 -test_size 0.33 -random_state 42 -save True -metrics Accuracy Precision -n1 40 -n2 20 -visualization True -prePath './data'<br/>
+>python DiseaseConqueror.py -datadir './data' -year 2022 -target '당뇨병' -models RandomForest AdaBoost -one_hoe_encoding True -n_splits 5 -test_size 0.33 -random_state 42 -save True -metrics Accuracy Precision -n1 40 -n2 20 -visualization True -prePath './data'<br/>
