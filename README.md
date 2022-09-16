@@ -10,7 +10,7 @@ python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_s
   &nbsp;&nbsp;args<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;datadir: 데이터 디렉토리<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year: 연도<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;target: 분석하고자 하는 질병<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;target: 분석하고자 하는 질병(비만, 고혈압, 당뇨병, 고콜레스테롤혈증, 고중성지방혈증, B형간염, 빈혈, 만성콩팥병, 구강기능제한, 저작불편호소, 뇌졸중, 천식, 알레르기비염, 아토피피부염 중 한 가지 선택)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;models: 사용하고자 하는 머신러닝 모델<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one_hot_encoding: 웟-핫 인코딩 여부<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n_splits: k-fold<br/>
