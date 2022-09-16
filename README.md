@@ -7,20 +7,20 @@
 python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_splits -test_size -random_state -save -metrics -n1 -n2 -visualization -prePath<br/>
 """<br/>
   &nbsp;&nbsp;args<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;datadir: 데이터 디렉토리<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;year: 연도<br/>
-    target: 분석하고자 하는 질병<br/>
-    models: 사용하고자 하는 머신러닝 모델<br/>
-    one_hot_encoding: 웟-핫 인코딩 여부<br/>
-    n_splits: k-fold<br/>
-    test_size: test size<br/>
-    random_state: random state<br/>
-    save: 저장 여부<br/>
-    metrics: 머신러닝 평가 지표<br/>
-    n1: <br/>
-    n2: <br/>
-    visualization: 시각화 여부<br/>
-    prePath: 저장 경로<br/>
-<br/>"""<br/>
-<br/>예시 코드<br/>
-<br/>python DiseaseConqueror.py -datadir './data' -year 2022 -targt '당뇨병' -models RandomForest AdaBoost -one_hoe_encoding True -n_splits 5 -test_size 0.33 -random_state 42 -save True -metrics Accuracy Precision -n1 40 -n2 20 -visualization True -prePath './data'<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;datadir: 데이터 디렉토리<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year: 연도<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;target: 분석하고자 하는 질병<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;models: 사용하고자 하는 머신러닝 모델<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one_hot_encoding: 웟-핫 인코딩 여부<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n_splits: k-fold<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test_size: test size<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;random_state: random state<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;save: 저장 여부<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;metrics: 머신러닝 평가 지표<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n1: <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n2: <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visualization: 시각화 여부<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prePath: 저장 경로<br/>
+"""<br/>
+>예시 코드<br/>
+python DiseaseConqueror.py -datadir './data' -year 2022 -targt '당뇨병' -models RandomForest AdaBoost -one_hoe_encoding True -n_splits 5 -test_size 0.33 -random_state 42 -save True -metrics Accuracy Precision -n1 40 -n2 20 -visualization True -prePath './data'<br/>
