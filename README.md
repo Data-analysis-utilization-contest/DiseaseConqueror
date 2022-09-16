@@ -24,5 +24,5 @@ python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_s
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prePath: 저장 경로<br/>
 """<br/>
 
-# 예시 코드<br/>
+## 예시 코드<br/>
 python DiseaseConqueror.py -datadir './data' -year 2022 -targt '당뇨병' -models RandomForest AdaBoost -one_hoe_encoding True -n_splits 5 -test_size 0.33 -random_state 42 -save True -metrics Accuracy Precision -n1 40 -n2 20 -visualization True -prePath './data'<br/>
