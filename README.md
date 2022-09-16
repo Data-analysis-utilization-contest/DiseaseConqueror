@@ -16,8 +16,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;random_state: random state<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;save: 저장 여부<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;metrics: 머신러닝 평가 지표<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n1: factor_extraction function 함수의 n<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n2: <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n1: factor_extraction 함수의 n<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n2: confusion_matrix 함수의 n<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visualization: 시각화 여부<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prePath: 저장 경로<br/>
 """<br/>
