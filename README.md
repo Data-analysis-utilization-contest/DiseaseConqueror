@@ -7,11 +7,17 @@
 python DiseaseConqueror.py -datadir -year -target -models -one_hot_encoding -n_splits -test_size -random_state -save -metrics -n1 -n2 -visualization -prePath<br/>
 """
   <br/>args<br/>
+  
     <br/>datadir: 데이터 디렉토리<br/>
+    
     <br/>year: 연도<br/>
+    
     <br/>target: 분석하고자 하는 질병<br/>
+    
     <br/>models: 사용하고자 하는 머신러닝 모델<br/>
+    
     <br/>one_hot_encoding: 웟-핫 인코딩 여부<br/>
+    
     <br/>n_splits: k-fold<br/>
     <br/>test_size: test size<br/>
     <br/>random_state: random state<br/>
